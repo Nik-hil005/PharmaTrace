@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f7fb;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #0B1F3A;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right, #0F2A5F, #1E5EFF);
+    color: white;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+
+ #getstarted{
+    padding: 12px 25px;
+    border: none;
+    background: #00C2B8;
+    color: #0b5ed7;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+ }
+ #getstarted:hover{
+    background: #009E88;
+ }
+
+/* Sections */
+.section {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    color: #0F172A;
+}
+#aboutp{
+    color:#475569;
+    font-size: 20px;
+}
+
+/* Features */
+.features .cards {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 30px;
+
+  
+}
+
+
+.card {
+    background: white;
+    padding: 25px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(15,23,42,0.08);
+    transition:0.3 ease;
+    cursor: pointer;
+    
+}
+
+.card:hover {
+    /* transform:scale(1.1);
+    transition-duration: (1);
+    transition-timing-function:ease-in;
+    box-shadow: 0 10px 30px rgb(30, 94, 255,0.08); */
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(30,94,255,0.12);
+    
+}
+/* Verify */
+.verify input {
+    padding: 12px;
+    width: 250px;
+    margin-right: 10px;
+    
+
+}
+
+ 
+#verifyID {
+    padding: 12px 20px;
+    background: #10B981;
+    color: white;
+    border: none;
+    cursor: pointer;   
+}
+#verifyID:hover{
+    background-color: #0E9F6E;
+
+}
+
+/* Footer */
+footer {
+    background: #0b1f3A;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
